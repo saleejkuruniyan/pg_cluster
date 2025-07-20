@@ -1,8 +1,5 @@
-Below is a comprehensive `README.md` that documents every installation and verification step in a clear, structured format. It ensures nothing is missed and includes TLS configuration, failover testing, and monitoring setup.
-
 ---
 
-````markdown
 # 🛠️ PostgreSQL HA Cluster (Patroni + etcd + HAProxy + Keepalived) Setup Guide
 
 ## 📌 Overview
@@ -31,7 +28,7 @@ Run once on an admin machine:
 openssl req -x509 -nodes -days 3650 \
   -newkey rsa:4096 -keyout ca.key -out ca.crt \
   -subj "/CN=MyCluster-CA"
-````
+```
 
 Copy `ca.key` and `ca.crt` to each node in `/etc/ssl/ca/` (via `scp`, etc.). These are **shared CA files** used for all nodes.
 
