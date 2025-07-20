@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 🛠️ PostgreSQL HA Cluster (Patroni + etcd + HAProxy + Keepalived) Setup Guide
 
