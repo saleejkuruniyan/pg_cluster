@@ -1,3 +1,7 @@
+Below is a comprehensive `README.md` that documents every installation and verification step in a clear, structured format. It ensures nothing is missed and includes TLS configuration, failover testing, and monitoring setup.
+
+---
+
 ````markdown
 # 🛠️ PostgreSQL HA Cluster (Patroni + etcd + HAProxy + Keepalived) Setup Guide
 
@@ -195,3 +199,4 @@ By following these steps, you will have a **secure, monitored, and highly availa
 * Monitoring via Prometheus + Grafana
 * Hardened authentication settings
 
+Let me know if you'd like help setting up Prometheus alerts or auto-renewing certificates!
